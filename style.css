@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+
+/* Message Box */
+
+.messageBox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: antiquewhite;
+}
+.messageBox h4{
+    display: table;
+    text-align: center;
+}
+
+.brandName{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+.brandName h2 a{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 7px 0px;
+}
+
+.searchSection{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchInput{
+    display: none;
+    padding: 2px;
+    width: 75%;
+    text-align: center;
+    border: 2px solid rgb(231, 219, 203);
+}
+
+.navbarList{
+    flex: 5;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+.navbarListItems a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.1rem;
+}
+.navbarListItems a:hover{
+    text-decoration: underline;
+}
+
+.userProfileSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+/* poopup */
+
+.productPopUp{
+    display: none;
+    height: fit-content;
+    width: 60%;
+    padding: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 10px;
+    position: absolute;
+    left: 20vw;
+}
+
+.heading{
+    margin-top: 10px;
+}
+
+.heading h3{
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.heading h4 a{
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(97, 93, 93);
+    text-decoration: none;
+}
+.heading h4 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* TagLine Section */
+
+.taglineSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    border-top: 2px solid rgb(231, 219, 203);
+}
+.mainImg{
+    flex: 5;
+    /* border: 2px solid red; */
+}
+
+.mainImg img{
+    height: 30vw;
+}
+
+.tagline > div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.tagline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 5;
+    /* border: 2px solid red; */
+    height: 30vw;
+
+}
+.tagline h2{
+    font-size: 4vw;
+    width: 50%;
+    display: table;
+    
+}
+.btn{
+    font-size: 15px;
+    padding: 4px;
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(155, 135, 108);
+    border: 2px solid rgb(150, 135, 115);
+    width: 40%;
+}
+.btn:hover{
+    /* margin-top: 10px; */
+    font-size: 15px;
+    padding: 4px;
+    background-color: rgb(155, 135, 108);;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* products Section */
+
+.mainProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.mainProduct h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.mainProductDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.productBox{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+.productBox h5{
+    font-family: 'Agdasima', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(80, 77, 77);
+}
+
+.productImg img{
+    height: 40vw;
+    border: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+.productImg img:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.smallProductImg img{
+    width: 20vw;
+    height: 25vw;
+}
+
+/* Brands NAme Section */
+
+.brandSection{
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.brandBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+}
+.brandBox img{
+    width: 13vw;
+    margin: 10px 20px;
+}
+
+/* footer */
+footer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+
+.InfoDiv h2{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.InfoDiv p{
+    font-family: 'Agdasima', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(80, 77, 77);
+    /* width: 60%; */
+    display: table;
+    text-align: center;
+}
+.subscribeDiv input{
+    padding: 5px;
+    font-size: 1.1rem;
+    border: 2px solid rgb(155, 135, 110);
+    border-radius: 5px;
+    font-family: 'Agdasima', sans-serif;
+    width: 200px;
+}
+.subscribeDiv button{
+    padding: 4px;
+    font-size: 1.1rem;
+    background-color: rgb(155, 135, 110);
+    color:white ;
+    border: none;
+    
+}
+.subscribeDiv h3{
+    
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    
+}
+
+
+.fade{
+    opacity: 0;
+    transition: all 2s;
+    filter: blur(5px);
+}
+.nofade{
+    opacity: 1;
+    filter: blur(0);
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+.hidden2{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(100%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
+
+.brandBox img:hover{
+    cursor: pointer;
+} 

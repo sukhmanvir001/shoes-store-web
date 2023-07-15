@@ -1,0 +1,52 @@
+
+
+nav{
+    border-bottom: 2px solid antiquewhite;
+}
+
+.contactUs{
+    width: 35vw;
+    left: 30vw;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+    /* background: linear-gradient(#f3f1e5, #fff8df); */
+    padding: 20px 40px;
+    /* box-shadow: 2px 2px 2px black;
+    border-radius: 10px;  */
+    position: absolute;
+
+}
+.contactUs h3{
+    margin-top: 40px;
+    font-family: 'Belanosima', sans-serif;
+    color: rgb(139, 115, 83);
+    font-size: 1.8rem;
+}
+
+form{
+    display: flex;
+    /* margin-top: 0px; */
+    /* align-items: center; */
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+form label{
+    margin-top: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.1rem;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    font-size: 15px;
+    font-family: 'Belanosima', sans-serif;
+}
+form textarea{
+    padding: 10px;
+    font-family: 'Belanosima', sans-serif;
+}

@@ -1,0 +1,35 @@
+.aboutusSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+
+.aboutHeading p{
+    width: 50vw;
+    display: table;
+    text-align: center;
+    
+    font-family: 'Belanosima', sans-serif;
+}
+
+.aboutMain img{
+    height: 400px;
+}
+.aboutMain {
+    padding: 20px;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paras p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    
+    font-family: 'Belanosima', sans-serif;
+}

@@ -1,0 +1,38 @@
+.LoginSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 50px;
+    border: 2px solid black;
+}
+.loginDiv{
+    margin-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.loginDiv label{
+    margin-top: 25px;
+    font-family: 'Belanosima', sans-serif;
+}
+.loginDiv >input{
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    font-family: 'Belanosima', sans-serif;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.loginDiv h2{
+    color: rgb(109, 99, 86);
+    font-family: 'Belanosima', sans-serif;
+}

@@ -1,0 +1,12 @@
+/* this  file is used to handle the responsive ness */
+
+/* navbar */
+
+@media screen and (max-width: 600px) {
+    .navbarList , .userProfileSection{
+        display: none;
+    }
+    .searchInput{
+        display: block;
+    }
+  }
